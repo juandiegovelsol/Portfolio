@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavBar } from "../../components/NavBar";
 import reactLogo from "../../assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./home.scss";
@@ -7,6 +8,7 @@ const Home = () => {
   const [count, setCount] = useState(0);
   return (
     <>
+      <NavBar />
       <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
