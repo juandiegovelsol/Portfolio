@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useNavigate } from "react-router-dom";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -12,14 +13,21 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { lime, purple, blueGrey } from "@mui/material/colors";
+import { purple } from "@mui/material/colors";
 import AdbIcon from "@mui/icons-material/Adb";
 
 import "./navbar.scss";
 
-const pages = ["Curriculum Vitae", "Resume", "Contact", "Social Media"];
+const pages = [
+  { text: "Curriculum Vitae", route: "/cv" },
+  { text: "Resume", route: "/resume" },
+  { text: "Contact", route: "/contact" },
+  { text: "Social Media", route: "/social" },
+];
 
 function NavBar() {
+  const navigate = useNavigate();
+
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
@@ -92,11 +100,19 @@ function NavBar() {
                   display: { xs: "block", md: "none" },
                 }}
               >
-                {pages.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">{page}</Typography>
-                  </MenuItem>
-                ))}
+                {pages.map(({ text, route }) => {
+                  return (
+                    <MenuItem
+                      key={text}
+                      onClick={() => {
+                        handleCloseNavMenu;
+                        navigate(route);
+                      }}
+                    >
+                      <Typography textAlign="center">{text}</Typography>
+                    </MenuItem>
+                  );
+                })}
               </Menu>
             </Box>
             {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
@@ -119,13 +135,16 @@ function NavBar() {
               JUAN DIEGO
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-              {pages.map((page) => (
+              {pages.map(({ text, route }) => (
                 <Button
-                  key={page}
-                  onClick={handleCloseNavMenu}
+                  key={text}
+                  onClick={() => {
+                    handleCloseNavMenu;
+                    navigate(route);
+                  }}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
-                  {page}
+                  {text}
                 </Button>
               ))}
             </Box>
