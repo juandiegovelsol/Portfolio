@@ -1,14 +1,14 @@
 import { NavBar } from "../../components/NavBar";
 
-import "./home.scss";
+import "./resume.scss";
 
-const Home = () => {
+const Resume = () => {
   return (
     <>
       <NavBar />
-      <p>Home page</p>
+      <p>Resume page</p>
     </>
   );
 };
 
-export default Home;
+export default Resume;

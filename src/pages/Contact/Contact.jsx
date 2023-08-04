@@ -1,14 +1,14 @@
 import { NavBar } from "../../components/NavBar";
 
-import "./home.scss";
+import "./contact.scss";
 
-const Home = () => {
+const Contact = () => {
   return (
     <>
       <NavBar />
-      <p>Home page</p>
+      <p>Contact page</p>
     </>
   );
 };
 
-export default Home;
+export default Contact;
