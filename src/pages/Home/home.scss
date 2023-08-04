@@ -1,7 +1,7 @@
 @import "../../styles/mixins.scss";
 @import "../../styles/variables.scss";
 .home {
-  height: 90vh;
+  height: 95vh;
   width: 100%;
   @include flexbox(flex, column, center, center);
   background-color: $backgroundcolor;
@@ -31,5 +31,19 @@
   &__description {
     color: $maintext;
     font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .home {
+    &__wrapper {
+      width: 80%;
+    }
+    &__name {
+      font-size: 50px;
+    }
+    &__subtitle {
+      font-size: 50px;
+    }
   }
 }
