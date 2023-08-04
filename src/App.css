@@ -4,7 +4,15 @@
   padding: 2rem;
   text-align: center; */
 }
-
+.App {
+  min-height: 100vh;
+  min-width: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
 /* .logo {
   height: 6em;
   padding: 1.5em;
