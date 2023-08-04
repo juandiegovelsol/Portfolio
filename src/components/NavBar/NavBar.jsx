@@ -13,7 +13,7 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { purple } from "@mui/material/colors";
+import { deepPurple } from "@mui/material/colors";
 import AdbIcon from "@mui/icons-material/Adb";
 
 import "./navbar.scss";
@@ -37,12 +37,12 @@ function NavBar() {
     setAnchorElNav(null);
   };
 
-  const color = { main: purple[900] };
+  const color = { main: deepPurple[900] };
 
   const theme = createTheme({
     palette: {
       primary: color,
-      secondary: purple,
+      secondary: color,
     },
   });
 

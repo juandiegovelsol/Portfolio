@@ -2,9 +2,9 @@
 @import "../../styles/variables.scss";
 // n is number of stars required
 @function multiple-box-shadow($n) {
-  $value: "#{random(2000)}px #{random(2000)}px #4a148c";
+  $value: "#{random(2000)}px #{random(2000)}px #311b92";
   @for $i from 2 through $n {
-    $value: "#{$value} , #{random(2000)}px #{random(2000)}px #4a148c";
+    $value: "#{$value} , #{random(2000)}px #{random(2000)}px #311b92";
   }
 
   @return unquote($value);
