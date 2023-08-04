@@ -22,7 +22,6 @@ const pages = [
   { text: "Curriculum Vitae", route: "/cv" },
   { text: "Resume", route: "/resume" },
   { text: "Contact", route: "/contact" },
-  { text: "Social Media", route: "/social" },
 ];
 
 function NavBar() {
