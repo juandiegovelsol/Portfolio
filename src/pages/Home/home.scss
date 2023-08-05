@@ -1,7 +1,7 @@
 @import "../../styles/mixins.scss";
 @import "../../styles/variables.scss";
 .home {
-  height: 95vh;
+  height: 90vh;
   width: 100%;
   @include flexbox(flex, column, center, center);
   background-color: $backgroundcolor;
@@ -36,6 +36,7 @@
 
 @media (max-width: 400px) {
   .home {
+    height: 93vh;
     &__wrapper {
       width: 80%;
     }
