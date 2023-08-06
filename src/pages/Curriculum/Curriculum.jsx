@@ -170,15 +170,20 @@ const Curriculum = () => {
                     <h3 className="cv__details-title">{title}</h3>
                     {info.length &&
                       info.map(({ subtitle1, subtitle2, list }) => (
-                        <span key={subtitle1}>
-                          <h4>{subtitle1}</h4>
-                          <h5>{subtitle2}</h5>
-                          {list.length && (
-                            <ul>
+                        <span key={subtitle1} className="cv__details-content">
+                          <h4 className="cv__details-subtitle">{subtitle1}</h4>
+                          <h5 className="cv__details-date">{subtitle2}</h5>
+                          {console.log(list.length)}
+                          {list.length ? (
+                            <ul className="cv__details-list">
                               {list.map((item) => (
-                                <li key={item}>{item}</li>
+                                <li key={item} className="cv__details-item">
+                                  {item}
+                                </li>
                               ))}
                             </ul>
+                          ) : (
+                            <></>
                           )}
                         </span>
                       ))}
