@@ -2,8 +2,10 @@
   position: fixed;
   bottom: 10px;
   left: 10px;
+  z-index: 20;
 }
 .css-1nrlq1o-MuiFormControl-root {
   min-width: 80px;
   font-size: 20px;
+  backdrop-filter: blur(3px);
 }
