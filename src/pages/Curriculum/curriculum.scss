@@ -8,7 +8,8 @@
   margin: 0;
   padding: 0;
   overflow-y: scroll;
-
+  text-align: justify;
+  text-justify: inter-word;
   &__wrapper {
     height: auto;
     width: 80%;
