@@ -1,3 +1,4 @@
+@import "../../styles/variables.scss";
 .css-ece9u5 {
   position: fixed;
   bottom: 10px;
@@ -7,5 +8,5 @@
 .css-1nrlq1o-MuiFormControl-root {
   min-width: 80px;
   font-size: 20px;
-  backdrop-filter: blur(10px);
+  background-color: $backgroundcolor;
 }
