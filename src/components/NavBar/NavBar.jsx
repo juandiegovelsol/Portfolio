@@ -1,5 +1,7 @@
 import * as React from "react";
 import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { selectHome } from "../../pages/Home/homeSlice";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -18,14 +20,9 @@ import AdbIcon from "@mui/icons-material/Adb";
 
 import "./navbar.scss";
 
-const pages = [
-  { text: "Curriculum Vitae", route: "/cv" },
-  { text: "Resume", route: "/resume" },
-  { text: "Contact", route: "/contact" },
-];
-
 function NavBar() {
   const navigate = useNavigate();
+  const { pages } = useSelector(selectHome);
 
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
