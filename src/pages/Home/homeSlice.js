@@ -21,7 +21,7 @@ const homeSlice = createSlice({
   },
 });
 
-export const { setHomeEnglish } = homeSlice.actions;
+export const { setHomeEnglish, setHomeSpanish } = homeSlice.actions;
 
 export const selectHome = (state) => state.home;
 
