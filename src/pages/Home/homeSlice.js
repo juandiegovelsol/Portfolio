@@ -2,9 +2,9 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { pages, text, content } from "./homeAPI";
 
 const initialState = {
-  pages: pages[1],
-  text: text[1],
-  content: content[1],
+  pages: pages[0],
+  text: text[0],
+  content: content[0],
 };
 
 const homeSlice = createSlice({
