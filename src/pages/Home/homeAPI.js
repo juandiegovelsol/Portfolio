@@ -270,3 +270,55 @@ export const content = [
     ],
   },
 ];
+
+export const resume = [
+  {
+    name: "JUAN DIEGO VELASCO",
+    profesion: "Mechatronics Engineer",
+    details: [
+      {
+        title: "Contact",
+        info: [
+          { subt: "Adress", info: "Cali, Colombia" },
+          { subt: "Phone", info: "+57 3175108881" },
+          { subt: "E-mail", info: "juandiegovelsol@gmail.com" },
+        ],
+      },
+      {
+        title: "Technical Profile",
+        info: [
+          { subt: "", info: "React.Js" },
+          { subt: "", info: "JavaScript" },
+          { subt: "", info: "Sass" },
+          { subt: "", info: "Git" },
+          { subt: "", info: "GitHub" },
+          { subt: "", info: "Node.Js" },
+          { subt: "", info: "SQL" },
+          { subt: "", info: "RESTful API" },
+          { subt: "", info: "Express.Js" },
+          { subt: "", info: "MongoDB" },
+          { subt: "", info: "Mongoose" },
+          { subt: "", info: "ES6+" },
+          { subt: "", info: "SCRUM" },
+        ],
+      },
+      {
+        title: "Competencies",
+        info: [
+          { subt: "", info: "Software Development" },
+          { subt: "", info: "Collaborative development planning" },
+          { subt: "", info: "SOLID principles" },
+          { subt: "", info: "Troubleshooting" },
+          { subt: "", info: "SCRUM methodology" },
+        ],
+      },
+    ],
+    paragraph1:
+      "An ambitious Full Stack developer with a strong work ethic, a collaborative mindset, and genuine passion for software development.",
+    paragraph2:
+      "Current expertise in various web development tools such as React, Redux, Sass, NodeJS, Git, MySQL, Prisma, MongoDB and Mongoose, gained through building several applications, including a personal Tesla webpage clone and a mobile restaurant website, both developed using SCRUM methodology. Learned how to work on both client-side and server-side of an application, taking a holistic approach to software development and building scalable and efficient applications using React and JavaScript.",
+    paragraph3:
+      "As a Mechatronics Engineer with 3 years of experience in automation and instrumentation systems design, have developed excellent researching skills and honed problem-solving skills to create complex engineering documents that allowed successful completion of the design process. These skills are essential for a full stack developer, providing a strong foundation for problem-solving and data analysis.",
+  },
+  {},
+];

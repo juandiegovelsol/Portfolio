@@ -1,6 +1,7 @@
 @import "../../styles/mixins.scss";
 @import "../../styles/variables.scss";
 .cv {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   height: 90vh;
   width: 100%;
   @include flexbox(flex, column, flex-start, center);
