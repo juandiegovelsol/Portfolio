@@ -151,5 +151,9 @@ body {
       min-width: 100%;
       text-align: left;
     }
+    &__rigth-items {
+      text-align: justify;
+      text-justify: inter-word;
+    }
   }
 }
