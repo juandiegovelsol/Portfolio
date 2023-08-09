@@ -1,6 +1,7 @@
 @import "../../styles/mixins.scss";
 @import "../../styles/variables.scss";
 .cv {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   height: 90vh;
   width: 100%;
   @include flexbox(flex, column, flex-start, center);
@@ -15,7 +16,6 @@
     width: 80%;
     @include flexbox(flex, column, flex-start, center);
     z-index: 10;
-    //border: 1px solid black;
     backdrop-filter: blur(2px);
   }
   &__header {
@@ -23,7 +23,6 @@
     width: 100%;
     min-height: 200px;
     @include flexbox(flex, column, space-evenly, center);
-    //border: 1px solid blue;
   }
   &__title {
     font-size: 40px;
@@ -39,12 +38,10 @@
     height: auto;
     width: 100%;
     @include flexbox(flex, row, center, flex-start);
-    //border: 1px solid red;
     flex-wrap: wrap;
   }
   &__left {
     flex-grow: 2;
-    //border: 1px solid cyan;
     min-width: 250px;
     height: auto;
     max-width: 300px;
