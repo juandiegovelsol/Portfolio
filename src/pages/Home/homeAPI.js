@@ -319,6 +319,56 @@ export const resume = [
       "Current expertise in various web development tools such as React, Redux, Sass, NodeJS, Git, MySQL, Prisma, MongoDB and Mongoose, gained through building several applications, including a personal Tesla webpage clone and a mobile restaurant website, both developed using SCRUM methodology. Learned how to work on both client-side and server-side of an application, taking a holistic approach to software development and building scalable and efficient applications using React and JavaScript.",
     paragraph3:
       "As a Mechatronics Engineer with 3 years of experience in automation and instrumentation systems design, have developed excellent researching skills and honed problem-solving skills to create complex engineering documents that allowed successful completion of the design process. These skills are essential for a full stack developer, providing a strong foundation for problem-solving and data analysis.",
+    rigthdetails: [
+      {
+        title: "Work History",
+        info: [
+          {
+            dates: "2022-09 - Current",
+            position: "Full Stack Developer",
+            company: "Make It Real, Medellin, ANT",
+            items: [
+              "Detail-oriented software developer reviewing and debugging code to identify and correct issues. Increased problems solving and performed quality coding by applying expertise in programming languages and debugging tools.",
+              "Dedicated Scrum team member successfully contributing to development of collaborative projects. Actively participating in entire project lifecycle, including planning, development, testing, and deployment. Utilizing effective communication, collaboration, and problem-solving skills to ensure timely, budget-friendly, and satisfactory project delivery to all stakeholders.",
+              "Experienced database developer and manager leveraging expertise in NodeJS and ORM tools to develop and manage complex databases. Utilized SQL and MongoDB to optimize database performance and ensure data integrity, contributing to creation of efficient and reliable database systems supporting business operations and meeting user needs.",
+            ],
+          },
+          {
+            dates: "2020-07 - Current",
+            position: "Engineer",
+            company: "Integral S.A, Medellin, ANT",
+            items: [
+              "Designed at least 10 big projects under direction of highly-experienced engineering professionals all across Colombia’s national territory.",
+              "Assisted in inspection of hundreds of customer and provider documents, resulting in 20% reduction in time and budget resources. This involved optimizing processes and identifying areas for improvement, leading to more efficient and effective inspections.",
+            ],
+          },
+        ],
+      },
+      {
+        title: "Education",
+        info: [
+          {
+            dates: "2022-09 - 2023-07",
+            position: "Full Stack Development",
+            company: "Make It Real, Medellin",
+            items: [],
+          },
+          {
+            dates: "2021-01 - 2021-12",
+            position: "Trading And Investments",
+            company: "Pro Trading Skills - United States Of America",
+            items: [],
+          },
+          {
+            dates: "2014-07 - 2021-06",
+            position: "Bachelor of Science: Mechatronics Engineering",
+            company: "Universidad EIA - Medellin",
+            items: [],
+          },
+        ],
+      },
+    ],
   },
+
   {},
 ];

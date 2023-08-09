@@ -1,5 +1,8 @@
 @import "../../styles/mixins.scss";
 @import "../../styles/variables.scss";
+body {
+  overflow: hidden;
+}
 .resume {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   height: 90vh;
@@ -74,54 +77,50 @@
     max-width: 700px;
     margin-left: 20px;
     padding-top: 10px;
+    /* @include flexbox(flex, column, flex-start, center); */
+  }
+  &__rigth-text {
+    margin-bottom: 5px;
+  }
+  &__rigth-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: $backgroundcolor;
+    border-bottom: 2px solid $maincolor;
+    border-top: 2px solid $maincolor;
+    color: $maincolor;
+    font-weight: bolder;
   }
 
-  /*
-  &__title {
-    font-size: 40px;
-    color: $maincolor;
-    text-align: center;
+  &__rigth-body {
+    @include flexbox(flex, row, flex-start, flex-start);
+    margin-bottom: 15px;
   }
-  &__text {
-    font-size: 17px;
-    color: $maintext;
+
+  &__rigth-date {
+    flex-grow: 1;
+    max-width: 100px;
+    text-align: left;
   }
-  
-  &__details {
-    @include flexbox(flex, column, flex-start, center);
-    margin-bottom: 20px;
+  &__rigth-rigth {
+    flex-grow: 3;
+    max-width: 600px;
   }
-  &__details-title {
-    color: $maincolor;
+  &__rigth-position {
+    margin-bottom: 5px;
+  }
+  &__rigth-company {
     margin-bottom: 10px;
-    font-size: 25px;
   }
-  &__text-list {
+  &__rigth-items {
+    padding-left: 20px;
+  }
+  &__rigth-list {
     margin-bottom: 3px;
   }
-  
-  &__work-details {
-    @include flexbox(flex, column, flex-start, flex-start);
-    height: auto;
-    margin-bottom: 30px;
+  &__blank {
+    margin: 25px 0px;
   }
-  &__details-content {
-    @include flexbox(flex, column, flex-start, flex-start);
-    margin-bottom: 10px;
-  }
-  &__details-subtitle {
-    margin-bottom: 5px;
-  }
-  &__details-date {
-    margin-bottom: 5px;
-    color: $secondtext;
-  }
-  &__details-list {
-    padding-left: 30px;
-  }
-  &__details-item {
-    margin-bottom: 5px;
-  } */
 }
 
 @media (max-width: 400px) {
@@ -138,7 +137,21 @@
     }
     &__rigth {
       min-width: 100%;
-      margin: 0;
+      margin-top: 20px;
+      margin-left: 0px;
+    }
+    &__rigth-body {
+      @include flexbox(flex, column, flex-start, center);
+      margin-bottom: 15px;
+    }
+    &__rigth-date {
+      min-width: 100%;
+      color: $importanttext;
+      font-weight: bold;
+    }
+    &__rigth-rigth {
+      min-width: 100%;
+      text-align: left;
     }
     /* &__header {
       margin: 20px 0px;
