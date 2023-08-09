@@ -369,6 +369,101 @@ export const resume = [
       },
     ],
   },
-
-  {},
+  {
+    name: "JUAN DIEGO VELASCO",
+    profesion: "Ingeniero Mecatrónico",
+    details: [
+      {
+        title: "Contacto",
+        info: [
+          { subt: "Dirección", info: "Cali, Colombia" },
+          { subt: "Teléfono", info: "+57 3175108881" },
+          { subt: "E-mail", info: "juandiegovelsol@gmail.com" },
+        ],
+      },
+      {
+        title: "Perfil Técnico",
+        info: [
+          { subt: "", info: "React.Js" },
+          { subt: "", info: "JavaScript" },
+          { subt: "", info: "Sass" },
+          { subt: "", info: "Git" },
+          { subt: "", info: "GitHub" },
+          { subt: "", info: "Node.Js" },
+          { subt: "", info: "SQL" },
+          { subt: "", info: "RESTful API" },
+          { subt: "", info: "Express.Js" },
+          { subt: "", info: "MongoDB" },
+          { subt: "", info: "Mongoose" },
+          { subt: "", info: "ES6+" },
+          { subt: "", info: "SCRUM" },
+        ],
+      },
+      {
+        title: "Habilidades",
+        info: [
+          { subt: "", info: "Desarrollo de software" },
+          { subt: "", info: "Planeación de desarrollo" },
+          { subt: "", info: "Principios SOLID" },
+          { subt: "", info: "Solución de bugs" },
+          { subt: "", info: "Metodología SCRUM" },
+        ],
+      },
+    ],
+    paragraph1:
+      "Desarrollador Full Stack ambicioso con sólida ética de trabajo, mentalidad colaborativa y pasión genuina por el desarrollo de software.",
+    paragraph2:
+      "Experiencia actual en herramientas variadas de desarrollo web como React, Redux, Sass, NodeJS, Git, MySQL, Prisma, MongoDB y Mongoose, obtenida mediante la creación de aplicaciones, incluido un clon de la página web de Tesla y un sitio web para móviles del restaurante El Rancho, ambos desarrollados con la metodología SCRUM. Aprendió a trabajar tanto en el lado del cliente como en el lado del servidor de una aplicación, adoptando un enfoque holístico para el desarrollo de software y creando aplicaciones escalables y eficientes utilizando React y JavaScript.",
+    paragraph3:
+      "Como ingeniero mecatrónico con 3 años de experiencia en el diseño de sistemas de automatización e instrumentación, ha desarrollado excelentes habilidades de investigación y perfeccionado habilidades de resolución de problemas para crear documentos de ingeniería complejos que permitieron completar con éxito el proceso de diseño. Estas habilidades son esenciales para un desarrollador Full stack, ya que proporcionan una base sólida para la resolución de problemas y el análisis de datos.",
+    rigthdetails: [
+      {
+        title: "Historial de Trabajo",
+        info: [
+          {
+            dates: "2022-09 - Actual",
+            position: "Desarrollador Full Stack",
+            company: "Make It Real, Medellin, ANT",
+            items: [
+              "Desarrollador de software orientado a los detalles que revisa y depura código para identificar y corregir problemas. Aumentó la resolución de problemas y realizó codificación de calidad aplicando experiencia en lenguajes de programación y herramientas de depuración.",
+              "Miembro dedicado del equipo SCRUM que contribuyó con éxito al desarrollo de proyectos colaborativos. Participó activamente en todo el ciclo de vida del proyecto, incluida la planificación, el desarrollo, las pruebas y la implementación. Utilizó habilidades efectivas de comunicación, colaboración y resolución de problemas para garantizar la entrega oportuna, económica y satisfactoria del proyecto a todas las partes interesadas.",
+              "Desarrollador y administrador de bases de datos experimentado que aprovecha herramientas NodeJS y ORMs para desarrollar y administrar bases de datos complejas. Utilizó SQL y MongoDB para optimizar el rendimiento de las bases de datos y garantizar la integridad de los registros, lo que contribuyó a la creación de sistemas eficientes y confiables que respaldan las operaciones comerciales y satisfacen las necesidades de los usuarios.",
+            ],
+          },
+          {
+            dates: "2020-07 - Actual",
+            position: "Ingeniero",
+            company: "Integral S.A, Medellin, ANT",
+            items: [
+              "Diseñó al menos 10 grandes proyectos bajo la dirección de profesionales de ingeniería de alta experiencia en todo el territorio nacional de Colombia, participando de forma activa en equipos multidisciplinarios de más de 50 personas.",
+              "Asistió en la inspección de cientos de documentos de clientes y proveedores, lo que resultó en una reducción del 20 % en tiempo y recursos presupuestados. Esto implicó optimizar procesos e identificar áreas de mejora, lo que llevó a inspecciones más eficientes y efectivas.",
+            ],
+          },
+        ],
+      },
+      {
+        title: "Formación Profesional",
+        info: [
+          {
+            dates: "2022-09 - 2023-07",
+            position: "Desarrollo Web Full Stack",
+            company: "Make It Real, Medellin",
+            items: [],
+          },
+          {
+            dates: "2021-01 - 2021-12",
+            position: "Trading e Inversiones",
+            company: "Pro Trading Skills - EE.UU",
+            items: [],
+          },
+          {
+            dates: "2014-07 - 2021-06",
+            position: "Profesional: Ingeniería Mecatrónica",
+            company: "Universidad EIA - Medellin",
+            items: [],
+          },
+        ],
+      },
+    ],
+  },
 ];

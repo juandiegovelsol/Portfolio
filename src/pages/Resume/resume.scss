@@ -77,7 +77,6 @@ body {
     max-width: 700px;
     margin-left: 20px;
     padding-top: 10px;
-    /* @include flexbox(flex, column, flex-start, center); */
   }
   &__rigth-text {
     margin-bottom: 5px;
@@ -129,7 +128,6 @@ body {
     &__wrapper {
       width: 90%;
       max-width: 90%;
-      /* @include flexbox(flex, column-reverse, center, flex-start); */
     }
     &__left {
       min-width: 100%;
@@ -153,46 +151,5 @@ body {
       min-width: 100%;
       text-align: left;
     }
-    /* &__header {
-      margin: 20px 0px;
-      min-height: 100px;
-    }
-    &__title {
-      font-size: 20px;
-    }
-    &__text {
-      font-size: 15px;
-      color: $maintext;
-    }
-    
-    &__details-title {
-      font-size: 20px;
-    }
-    &__text-list {
-      font-size: 15px;
-    }
-    
-    &__work-details {
-      @include flexbox(flex, column, center, center);
-      max-width: 100%;
-      margin-right: 0;
-    }
-    &__details-content {
-      max-width: 90%;
-      @include flexbox(flex, column, flex-start, center);
-    }
-    &__details-subtitle {
-      text-align: center;
-    }
-    &__details-date {
-      text-align: center;
-    }
-    &__details-list {
-      list-style-type: none;
-      padding: 0;
-    }
-    &__details-item {
-      text-align: center;
-    }*/
   }
 }
