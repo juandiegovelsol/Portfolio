@@ -1,27 +1,31 @@
+import github from "../../assets/github.png";
+import linkedin from "../../assets/linkedin.png";
+import rancho from "../../assets/rancho.png";
+import tesla from "../../assets/tesla.png";
 export const pages = [
   [
     { text: "Home", route: "/" },
     { text: "Curriculum Vitae", route: "/cv" },
     { text: "Resume", route: "/resume" },
-    { text: "Contact", route: "/contact" },
+    { text: "Contact & Projects", route: "/contact" },
   ],
   [
     { text: "Inicio", route: "/" },
     { text: "Curriculum Vitae", route: "/cv" },
     { text: "Resume", route: "/resume" },
-    { text: "Contacto", route: "/contact" },
+    { text: "Contacto & Proyectos", route: "/contact" },
   ],
 ];
 export const text = [
   {
-    greet: "Hi, my name is",
+    greet: "Hi, I am",
     name: "Juan Diego Velasco.",
     subtitle: "I build things for the web.",
     description:
       "I am a mechatronic's engineer specialized in building (and occasionally designing) exceptional digital experiences. Currently i am focused in accessible, scalable and human centered products.",
   },
   {
-    greet: "Hola, mi nombre es",
+    greet: "Hola, soy",
     name: "Juan Diego Velasco.",
     subtitle: "Construyo cosas para la web.",
     description:
@@ -466,4 +470,52 @@ export const resume = [
       },
     ],
   },
+];
+
+export const contact = [
+  [
+    {
+      title: "MY PROFILES",
+      content: [
+        {
+          img: github,
+          title: "Github Profile",
+          description:
+            "Welcome to my GitHub profile! Discover innovative projects showcasing my skills as a full-stack developer. With expertise in React, Redux, Sass, Node.js, and Express, I create dynamic web applications. Leveraging Git for seamless collaboration and efficient code management. Join me on this exciting journey through my repository, where creativity meets technical expertise.",
+          link: "Check out my profile here!",
+          href: "https://github.com/juandiegovelsol",
+        },
+        {
+          img: linkedin,
+          title: "Linked-in Profile",
+          description:
+            "Welcome to my Linked-in profile! Passionate Full Stack Developer | Crafting Innovative Web Solutions | Tech Enthusiast | Continuous Learner",
+          link: "Check out my profile here!",
+          href: "https://www.linkedin.com/in/juan-diego-velasco-solano-713148122/",
+        },
+      ],
+    },
+    {
+      title: "MY PROJECTS",
+      content: [
+        {
+          img: tesla,
+          title: "Tesla Clone (Only for PC)",
+          description:
+            "Experience the innovation of a meticulously crafted Tesla Clone webpage. As a skilled full-stack developer, I recreated the iconic Tesla website using React, Redux, Sass, NodeJs, git, MySQL, and Prisma. Join me on this captivating journey into cutting-edge technology and unparalleled user interfaces.",
+          link: "Check out my project here!",
+          href: "https://golden-khapse-972f84.netlify.app/",
+        },
+        {
+          img: rancho,
+          title: "El Rancho (Only for Mobile)",
+          description:
+            "Experience the captivating world of El Rancho. As a skilled full-stack developer, I utilized React, Redux, Sass, Node.js, and Express to create this vibrant mobile webpage. Seamlessly integrating MongoDB and Mongoose, it offers an intuitive interface and dynamic features. Join me on this exciting journey into mobile web development.",
+          link: "Check out my project here!",
+          href: "https://sprightly-chebakia-19927e.netlify.app/",
+        },
+      ],
+    },
+  ],
+  [],
 ];
