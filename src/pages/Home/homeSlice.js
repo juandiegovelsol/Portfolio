@@ -1,11 +1,12 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { pages, text, content, resume } from "./homeAPI";
+import { pages, text, content, resume, contact } from "./homeAPI";
 
 const initialState = {
   pages: pages[0],
   text: text[0],
   content: content[0],
   resume: resume[0],
+  contact: contact[0],
 };
 
 const homeSlice = createSlice({
@@ -17,12 +18,14 @@ const homeSlice = createSlice({
       state.text = text[0];
       state.content = content[0];
       state.resume = resume[0];
+      state.contact = contact[0];
     },
     setHomeSpanish: (state) => {
       state.pages = pages[1];
       state.text = text[1];
       state.content = content[1];
       state.resume = resume[1];
+      state.contact = contact[1];
     },
   },
 });
