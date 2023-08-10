@@ -489,7 +489,7 @@ export const contact = [
           img: linkedin,
           title: "Linked-in Profile",
           description:
-            "Welcome to my Linked-in profile! Passionate Full Stack Developer | Crafting Innovative Web Solutions | Tech Enthusiast | Continuous Learner",
+            "Welcome to my Linked-in profile! Passionate Full Stack Developer | Crafting Innovative Web Solutions | Tech Enthusiast | Continuous Learner.",
           link: "Check out my profile here!",
           href: "https://www.linkedin.com/in/juan-diego-velasco-solano-713148122/",
         },
@@ -517,5 +517,48 @@ export const contact = [
       ],
     },
   ],
-  [],
+  [
+    {
+      title: "PERFILES",
+      content: [
+        {
+          img: github,
+          title: "Perfil de Github",
+          description:
+            "¡Bienvenido a mi perfil de GitHub! Descubre proyectos innovadores que demuestran mis habilidades como desarrollador full-stack. Con experiencia en React, Redux, Sass, Node.js y Express, creo aplicaciones web dinámicas, aprovehando Git para una colaboración fluida y una gestión de código eficiente. Únete en este emocionante viaje a través de mi repositorio, donde la creatividad se encuentra con la experiencia técnica.",
+          link: "Mira aquí mi perfil!",
+          href: "https://github.com/juandiegovelsol",
+        },
+        {
+          img: linkedin,
+          title: "Perfil de Linked-in",
+          description:
+            "¡Bienvenido a mi perfil de Linked-in! Desarrollador Full Stack apasionado | Creación de soluciones web innovadoras | Entusiasta de la tecnología | Aprendizaje Continuo.",
+          link: "Mira aquí mi perfil!",
+          href: "https://www.linkedin.com/in/juan-diego-velasco-solano-713148122/",
+        },
+      ],
+    },
+    {
+      title: "MIS PROYECTOS",
+      content: [
+        {
+          img: tesla,
+          title: "Clon Tesla (Solo para PC)",
+          description:
+            "Experimenta la innovación de la página web meticulosamente diseñada, Tesla Clon. Como desarrollador full-stack, recreé el icónico sitio web de Tesla usando React, Redux, Sass, NodeJs, git, MySQL y Prisma. Únete en este cautivador viaje hacia la tecnología de punta y las interfaces de usuario incomparables.",
+          link: "Mira aquí el proyecto!",
+          href: "https://golden-khapse-972f84.netlify.app/",
+        },
+        {
+          img: rancho,
+          title: "El Rancho (Solo para móvil)",
+          description:
+            "Experimenta el cautivador mundo de El Rancho. Como desarrollador full-stack, utilicé React, Redux, Sass, Node.js y Express para crear esta vibrante página web móvil. Integrando a la perfección MongoDB y Mongoose, ofrece una interfaz intuitiva y características dinámicas. Únete en este emocionante viaje hacia el desarrollo web móvil.",
+          link: "Mira aquí el proyecto!",
+          href: "https://sprightly-chebakia-19927e.netlify.app/",
+        },
+      ],
+    },
+  ],
 ];
