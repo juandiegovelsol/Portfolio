@@ -3,6 +3,7 @@ import { selectHome } from "../Home/homeSlice";
 import { NavBar } from "../../components/NavBar";
 import { Background } from "../../components/Background";
 import { LanguageSelector } from "../../components/LanguageSelector";
+import { Whatsapp } from "../../components/Whatsapp";
 
 import "./resume.scss";
 
@@ -13,6 +14,7 @@ const Resume = () => {
       <NavBar />
       <Background />
       <LanguageSelector />
+      <Whatsapp />
       <section className="resume">
         <div className="resume__wrapper">
           <aside className="resume__left">

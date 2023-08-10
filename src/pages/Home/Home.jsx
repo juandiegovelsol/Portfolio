@@ -3,6 +3,7 @@ import { selectHome } from "./homeSlice";
 import { NavBar } from "../../components/NavBar";
 import { Background } from "../../components/Background";
 import { LanguageSelector } from "../../components/LanguageSelector";
+import { Whatsapp } from "../../components/Whatsapp";
 
 import "./home.scss";
 
@@ -13,6 +14,7 @@ const Home = () => {
       <NavBar />
       <Background />
       <LanguageSelector />
+      <Whatsapp />
       <section className="home">
         <article className="home__wrapper">
           <p className="home__greet">{text.greet}</p>

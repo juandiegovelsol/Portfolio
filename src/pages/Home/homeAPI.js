@@ -562,3 +562,8 @@ export const contact = [
     },
   ],
 ];
+
+export const whastapp_message = [
+  "https://api.whatsapp.com/send?phone=%2B573175108881&text=Hi%2C+just+checked+your+portfolio+and+would+like+to+know+more+about+you",
+  "https://api.whatsapp.com/send?phone=%2B573175108881&text=Hola%2C+vi+tu+portafolio+web+y+quisiera+saber+mas+de+ti",
+];

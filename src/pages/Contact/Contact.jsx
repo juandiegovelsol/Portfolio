@@ -3,6 +3,7 @@ import { selectHome } from "../Home/homeSlice";
 import { NavBar } from "../../components/NavBar";
 import { Background } from "../../components/Background";
 import { LanguageSelector } from "../../components/LanguageSelector";
+import { Whatsapp } from "../../components/Whatsapp";
 
 import "./contact.scss";
 
@@ -13,6 +14,7 @@ const Contact = () => {
       <NavBar />
       <Background />
       <LanguageSelector />
+      <Whatsapp />
       <section className="contact">
         <div className="contact__wrapper">
           {contact.length &&
