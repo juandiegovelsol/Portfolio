@@ -27,20 +27,22 @@ export default function LanguageSelector() {
   }, [lang]);
 
   return (
-    <Box sx={{ minWidth: 120 }}>
-      <FormControl>
-        <InputLabel id="demo-simple-select-label">Lng</InputLabel>
-        <Select
-          labelId="demo-simple-select-label"
-          id="demo-simple-select"
-          value={lang}
-          label="Age"
-          onChange={handleChange}
-        >
-          <MenuItem value={"eng"}>English</MenuItem>
-          <MenuItem value={"esp"}>Español</MenuItem>
-        </Select>
-      </FormControl>
-    </Box>
+    <section className="language">
+      <Box>
+        <FormControl>
+          <InputLabel id="demo-simple-select-label">Lng</InputLabel>
+          <Select
+            labelId="demo-simple-select-label"
+            id="demo-simple-select"
+            value={lang}
+            label="Age"
+            onChange={handleChange}
+          >
+            <MenuItem value={"eng"}>English</MenuItem>
+            <MenuItem value={"esp"}>Español</MenuItem>
+          </Select>
+        </FormControl>
+      </Box>
+    </section>
   );
 }
