@@ -57,7 +57,7 @@ export const content = [
         links: [
           "https://golden-khapse-972f84.netlify.app",
           "https://sprightly-chebakia-19927e.netlify.app",
-          "https://juandiegovelasco.netlify.app",
+          "https://doc-vicky.netlify.app/",
           "https://github.com/juandiegovelsol",
           "https://www.linkedin.com/in/juan-diego-velasco-solano-713148122/",
         ],
@@ -103,8 +103,7 @@ export const content = [
         title: "EMPLOYMENT HISTORY",
         info: [
           {
-            subtitle1:
-              "Full Stack Developer at Make It Real, Medellin - Remote",
+            subtitle1: "Freelance Full Stack Developer, Cali - Remote",
             subtitle2: "September 2022 — Present",
             list: [
               "As a full-stack web developer, I successfully led the development of a high-end vehicle e-commerce platform. I utilized technologies such as React, Redux, Sass, Node.js, Express, Prisma, MySQL, and JSON Web Tokens to implement functionalities including user registration, profile management, vehicle model and color selection, and order management. Additionally, I integrated ePayco's payment gateway to facilitate purchase transactions and automated email notifications for seamless communication throughout the buying process.",
@@ -176,7 +175,7 @@ export const content = [
         links: [
           "https://golden-khapse-972f84.netlify.app",
           "https://sprightly-chebakia-19927e.netlify.app",
-          "https://juandiegovelasco.netlify.app",
+          "https://doc-vicky.netlify.app/",
           "https://github.com/juandiegovelsol",
           "https://www.linkedin.com/in/juan-diego-velasco-solano-713148122/",
         ],
@@ -222,8 +221,7 @@ export const content = [
         title: "HISTORIAL DE EMPLEO",
         info: [
           {
-            subtitle1:
-              "Desarrollador Full Stack en Make It Real, Medellin - Remoto",
+            subtitle1: "Desarrollador Full Stack Freelance, Cali - Remoto",
             subtitle2: "Septiembre 2022 — Actualidad",
             list: [
               "Como desarrollador full-stack, lideré con éxito el desarrollo de una plataforma de comercio electrónico de vehículos de alta gama. Utilicé tecnologías como React, Redux, Sass, Node.js, Express, Prisma, MySQL y JSON Web Tokens para implementar funcionalidades que incluyen el registro de usuarios, la gestión de perfiles, la selección de modelos y colores de vehículos y la gestión de pedidos. Además, integré la pasarela de pago de ePayco para facilitar las transacciones de compra y las notificaciones automáticas por correo electrónico para una comunicación fluida durante todo el proceso de compra.",
@@ -330,7 +328,7 @@ export const resume = [
           {
             dates: "2022-09 - Current",
             position: "Full Stack Developer",
-            company: "Make It Real, Medellin, ANT",
+            company: "Freelance, Cali, Remoto",
             items: [
               "Detail-oriented software developer reviewing and debugging code to identify and correct issues. Increased problems solving and performed quality coding by applying expertise in programming languages and debugging tools.",
               "Dedicated Scrum team member successfully contributing to development of collaborative projects. Actively participating in entire project lifecycle, including planning, development, testing, and deployment. Utilizing effective communication, collaboration, and problem-solving skills to ensure timely, budget-friendly, and satisfactory project delivery to all stakeholders.",
@@ -427,7 +425,7 @@ export const resume = [
           {
             dates: "2022-09 - Actual",
             position: "Desarrollador Full Stack",
-            company: "Make It Real, Medellin, ANT",
+            company: "Freelance, Cali, Remoto",
             items: [
               "Desarrollador de software orientado a los detalles que revisa y depura código para identificar y corregir problemas. Aumentó la resolución de problemas y realizó codificación de calidad aplicando experiencia en lenguajes de programación y herramientas de depuración.",
               "Miembro dedicado del equipo SCRUM que contribuyó con éxito al desarrollo de proyectos colaborativos. Participó activamente en todo el ciclo de vida del proyecto, incluida la planificación, el desarrollo, las pruebas y la implementación. Utilizó habilidades efectivas de comunicación, colaboración y resolución de problemas para garantizar la entrega oportuna, económica y satisfactoria del proyecto a todas las partes interesadas.",
