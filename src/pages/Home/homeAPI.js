@@ -328,7 +328,7 @@ export const resume = [
           {
             dates: "2022-09 - Current",
             position: "Full Stack Developer",
-            company: "Freelance, Cali, Remoto",
+            company: "Freelance, Cali, Remote",
             items: [
               "Detail-oriented software developer reviewing and debugging code to identify and correct issues. Increased problems solving and performed quality coding by applying expertise in programming languages and debugging tools.",
               "Dedicated Scrum team member successfully contributing to development of collaborative projects. Actively participating in entire project lifecycle, including planning, development, testing, and deployment. Utilizing effective communication, collaboration, and problem-solving skills to ensure timely, budget-friendly, and satisfactory project delivery to all stakeholders.",
