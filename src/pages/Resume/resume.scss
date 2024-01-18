@@ -1,0 +1,159 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+body {
+  overflow: hidden;
+}
+.resume {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  height: 90vh;
+  width: 100%;
+  @include flexbox(flex, column, flex-start, center);
+  background-color: $backgroundcolor;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  text-align: justify;
+  text-justify: inter-word;
+  &__wrapper {
+    height: auto;
+    width: 80%;
+    @include flexbox(flex, row, center, flex-start);
+    z-index: 10;
+    backdrop-filter: blur(2px);
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  &__left {
+    flex-grow: 2;
+    min-width: 250px;
+    height: 100%;
+    max-width: 300px;
+    @include flexbox(flex, column, flex-start, flex-start);
+    padding: 0px 20px;
+    text-align: left;
+    background-color: $maincolor;
+    color: $backgroundcolor;
+    padding-top: 30px;
+  }
+  &__name {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  &__profesion {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  &__details {
+    margin-bottom: 20px;
+    min-width: 100%;
+  }
+
+  &__details-title {
+    height: 40px;
+    min-width: calc(100% + 40px);
+    background-color: $secondcolor;
+    position: relative;
+    left: -20px;
+    @include flexbox(flex, row, flex-start, center);
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  &__details-info {
+    margin-bottom: 10px;
+  }
+
+  &__details-subt {
+    margin-bottom: 5px;
+    padding-left: 10px;
+  }
+
+  &__details-text {
+    padding-left: 15px;
+  }
+  &__rigth {
+    flex-grow: 5;
+    min-width: 400px;
+    max-width: 700px;
+    margin-left: 20px;
+    padding-top: 10px;
+  }
+  &__rigth-text {
+    margin-bottom: 5px;
+  }
+  &__rigth-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: $backgroundcolor;
+    border-bottom: 2px solid $maincolor;
+    border-top: 2px solid $maincolor;
+    color: $maincolor;
+    font-weight: bolder;
+  }
+
+  &__rigth-body {
+    @include flexbox(flex, row, flex-start, flex-start);
+    margin-bottom: 15px;
+  }
+
+  &__rigth-date {
+    flex-grow: 1;
+    max-width: 100px;
+    text-align: left;
+  }
+  &__rigth-rigth {
+    flex-grow: 3;
+    max-width: 600px;
+  }
+  &__rigth-position {
+    margin-bottom: 5px;
+  }
+  &__rigth-company {
+    margin-bottom: 10px;
+  }
+  &__rigth-items {
+    padding-left: 20px;
+  }
+  &__rigth-list {
+    margin-bottom: 3px;
+  }
+  &__blank {
+    margin: 25px 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .resume {
+    height: 93vh;
+    &__wrapper {
+      width: 90%;
+      max-width: 90%;
+    }
+    &__left {
+      min-width: 100%;
+      height: auto;
+    }
+    &__rigth {
+      min-width: 100%;
+      margin-top: 20px;
+      margin-left: 0px;
+    }
+    &__rigth-body {
+      @include flexbox(flex, column, flex-start, center);
+      margin-bottom: 15px;
+    }
+    &__rigth-date {
+      min-width: 100%;
+      color: $importanttext;
+      font-weight: bold;
+    }
+    &__rigth-rigth {
+      min-width: 100%;
+      text-align: left;
+    }
+    &__rigth-items {
+      text-align: justify;
+      text-justify: inter-word;
+    }
+  }
+}

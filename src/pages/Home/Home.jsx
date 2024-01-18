@@ -1,32 +1,28 @@
-import { useState } from "react";
-import reactLogo from "../../assets/react.svg";
-import viteLogo from "/vite.svg";
+import { useSelector } from "react-redux";
+import { selectHome } from "./homeSlice";
+import { NavBar } from "../../components/NavBar";
+import { Background } from "../../components/Background";
+import { LanguageSelector } from "../../components/LanguageSelector";
+import { Whatsapp } from "../../components/Whatsapp";
+
 import "./home.scss";
 
 const Home = () => {
-  const [count, setCount] = useState(0);
+  const { text } = useSelector(selectHome);
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <NavBar />
+      <Background />
+      <LanguageSelector />
+      <Whatsapp />
+      <section className="home">
+        <article className="home__wrapper">
+          <p className="home__greet">{text.greet}</p>
+          <h1 className="home__name">{text.name}</h1>
+          <h2 className="home__subtitle">{text.subtitle}</h2>
+          <p className="home__description">{text.description}</p>
+        </article>
+      </section>
     </>
   );
 };

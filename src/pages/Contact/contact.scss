@@ -1,0 +1,103 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+.contact {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  height: 90vh;
+  width: 100%;
+  @include flexbox(flex, column, flex-start, center);
+  background-color: $backgroundcolor;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  &__wrapper {
+    height: auto;
+    width: 90%;
+    @include flexbox(flex, column, flex-start, center);
+    z-index: 10;
+    backdrop-filter: blur(2px);
+    margin-top: 50px;
+  }
+  &__section {
+    width: 100%;
+    height: auto;
+    @include flexbox(flex, column, flex-start, center);
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  &__title {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: $maincolor;
+  }
+  &__cards {
+    max-width: 100%;
+    @include flexbox(flex, row, space-evenly, flex-start);
+    flex-wrap: wrap;
+  }
+  &__card-wrapper {
+    max-height: 700px;
+    max-width: 45%;
+    min-width: 400px;
+    overflow: hidden;
+    @include flexbox(flex, column, flex-start, center);
+  }
+  &__card-top {
+    flex-grow: 2;
+    max-height: 400px;
+    /* min-height: 70%; */
+    @include flexbox(flex, row, center, center);
+  }
+  &__card-img {
+    object-fit: contain;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  &__card-bottom {
+    flex-grow: 1;
+    @include flexbox(flex, column, flex-start, flex-start);
+  }
+  &__card-title {
+    margin: 15px 0px;
+    font-size: 25px;
+    color: $importanttext;
+  }
+  &__card-text {
+    margin-bottom: 15px;
+    color: $maintext;
+    font-size: 18px;
+  }
+  &__card-link {
+    color: $maincolor;
+    font-size: 18px;
+  }
+}
+@media (max-width: 400px) {
+  .contact {
+    height: 93vh;
+    &__wrapper {
+      width: 90%;
+      max-width: 90%;
+    }
+    &__section {
+    }
+    &__title {
+      font-size: 22px;
+    }
+    &__cards {
+    }
+    &__card-wrapper {
+      max-width: 100%;
+      min-width: 300px;
+      margin-bottom: 50px;
+    }
+    &__card-bottom {
+      @include flexbox(flex, column, center, flex-start);
+    }
+    /*  &__card-text {
+      font-size: 15px;
+    } */
+  }
+}

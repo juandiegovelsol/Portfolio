@@ -1,0 +1,149 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+.cv {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  height: 90vh;
+  width: 100%;
+  @include flexbox(flex, column, flex-start, center);
+  background-color: $backgroundcolor;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  text-align: justify;
+  text-justify: inter-word;
+  &__wrapper {
+    height: auto;
+    width: 80%;
+    @include flexbox(flex, column, flex-start, center);
+    z-index: 10;
+    backdrop-filter: blur(2px);
+  }
+  &__header {
+    margin: 30px 0px;
+    width: 100%;
+    min-height: 200px;
+    @include flexbox(flex, column, space-evenly, center);
+  }
+  &__title {
+    font-size: 40px;
+    color: $maincolor;
+    text-align: center;
+  }
+  &__text {
+    font-size: 17px;
+    color: $maintext;
+  }
+  &__body {
+    margin: 0px 0px 30px 0px;
+    height: auto;
+    width: 100%;
+    @include flexbox(flex, row, center, flex-start);
+    flex-wrap: wrap;
+  }
+  &__left {
+    flex-grow: 2;
+    min-width: 250px;
+    height: auto;
+    max-width: 300px;
+    @include flexbox(flex, column, flex-start, center);
+  }
+  &__details {
+    @include flexbox(flex, column, flex-start, center);
+    margin-bottom: 20px;
+  }
+  &__details-title {
+    color: $maincolor;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  &__text-list {
+    margin-bottom: 3px;
+  }
+  &__rigth {
+    flex-grow: 5;
+    min-width: 400px;
+    max-width: 700px;
+    margin-left: 20px;
+  }
+  &__work-details {
+    @include flexbox(flex, column, flex-start, flex-start);
+    height: auto;
+    margin-bottom: 30px;
+  }
+  &__details-content {
+    @include flexbox(flex, column, flex-start, flex-start);
+    margin-bottom: 10px;
+  }
+  &__details-subtitle {
+    margin-bottom: 5px;
+  }
+  &__details-date {
+    margin-bottom: 5px;
+    color: $secondtext;
+  }
+  &__details-list {
+    padding-left: 30px;
+  }
+  &__details-item {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .cv {
+    height: 93vh;
+    &__wrapper {
+      width: 90%;
+      max-width: 90%;
+    }
+    &__header {
+      margin: 20px 0px;
+      min-height: 100px;
+    }
+    &__title {
+      font-size: 20px;
+    }
+    &__text {
+      font-size: 15px;
+      color: $maintext;
+    }
+    &__body {
+      @include flexbox(flex, column, center, flex-start);
+    }
+    &__left {
+      min-width: 100%;
+    }
+    &__details-title {
+      font-size: 20px;
+    }
+    &__text-list {
+      font-size: 15px;
+    }
+    &__rigth {
+      min-width: 100%;
+      margin: 0;
+    }
+    &__work-details {
+      @include flexbox(flex, column, center, center);
+      max-width: 100%;
+      margin-right: 0;
+    }
+    &__details-content {
+      max-width: 90%;
+      @include flexbox(flex, column, flex-start, center);
+    }
+    &__details-subtitle {
+      text-align: center;
+    }
+    &__details-date {
+      text-align: center;
+    }
+    &__details-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    &__details-item {
+      text-align: center;
+    }
+  }
+}
