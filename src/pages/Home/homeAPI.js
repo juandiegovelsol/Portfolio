@@ -22,14 +22,14 @@ export const text = [
     name: "Juan Diego Velasco.",
     subtitle: "I build things for the web.",
     description:
-      "I am a mechatronic's engineer specialized in building (and occasionally designing) exceptional digital experiences. Currently i am focused in accessible, scalable and human centered products.",
+      "I am a Full Stack Developer specialized in building (and occasionally designing) exceptional digital experiences. Currently i am focused in accessible, scalable and human centered products.",
   },
   {
     greet: "Hola, soy",
     name: "Juan Diego Velasco.",
     subtitle: "Construyo cosas para la web.",
     description:
-      "Soy un ingeniero mecatrónico especializado en construir (y ocasionalmente diseñar) experiencias digitales excepcionales. Actualmente me centro en productos accesibles, escalables y centrados en la persona.",
+      "Soy un Desarrollador Full Stack especializado en construir (y ocasionalmente diseñar) experiencias digitales excepcionales. Actualmente me centro en productos accesibles, escalables y centrados en la persona.",
   },
 ];
 
@@ -48,18 +48,18 @@ export const content = [
         title: "LINKS",
         islink: true,
         list: [
-          "E-commerce for desktop",
           "Restaurant for mobile",
+          "E-commerce for desktop",
           "Doctor app (building) responsive",
           "Github",
           "Linked in",
         ],
         links: [
-          "https://golden-khapse-972f84.netlify.app",
           "https://sprightly-chebakia-19927e.netlify.app",
+          "https://golden-khapse-972f84.netlify.app",
           "https://doc-vicky.netlify.app/",
           "https://github.com/juandiegovelsol",
-          "https://www.linkedin.com/in/juan-diego-velasco-solano-713148122/",
+          "https://www.linkedin.com/in/juan-diego-velasco/",
         ],
       },
       {
@@ -91,7 +91,7 @@ export const content = [
             subtitle1: "",
             subtitle2: "",
             list: [
-              "Mechatronics engineer with a year of experience in full-stack web development, with a keen interest in front-end and back-end technologies for creating interactive and scalable web applications.",
+              "Full Stack Developer with over 1 year of experience in web development technologies, with a keen interest in creating interactive and scalable web applications.",
               "Passionate about web development, dedicated to continuous learning, and staying up to date with the latest technologies.",
               "Distinguished by motivation, teamwork, and ability to solve complex problems in collaborative projects.",
               "Committed to leveraging their experience and skills in web development to contribute to the success of the company and achieve high-quality results.",
@@ -103,21 +103,37 @@ export const content = [
         title: "EMPLOYMENT HISTORY",
         info: [
           {
-            subtitle1: "Freelance Full Stack Developer, Cali - Remote",
-            subtitle2: "September 2022 — Present",
+            subtitle1: "Full Stack Developer at RabbitStudio.co, Cali - Remote",
+            subtitle2: "August 2023 — Present",
             list: [
-              "As a full-stack web developer, I successfully led the development of a high-end vehicle e-commerce platform. I utilized technologies such as React, Redux, Sass, Node.js, Express, Prisma, MySQL, and JSON Web Tokens to implement functionalities including user registration, profile management, vehicle model and color selection, and order management. Additionally, I integrated ePayco's payment gateway to facilitate purchase transactions and automated email notifications for seamless communication throughout the buying process.",
-              "My last project was a mobile restaurant website. Utilizing React, Redux, Sass, Node.js, Express, and MongoDB to create an interactive web application. The objective was to implement features such as a dynamic menu, online table reservation, virtual photo gallery, and real-time order management for restaurant staff. Additionally, best quality code practices were applied to ensure an appealing and optimized experience across mobile devices.",
+              "Pioneered the research and development of a sophisticated user interface using ExtendScript for Adobe Illustrator, streamlining design processes, and enhancing creative workflows.",
+              "Collaborated in the development of Shopify web pages, showcasing a versatile skill set in web development and a passion for problem-solving.",
+              "Embraced a collaborative approach, contributing to team efforts and fostering a positive work environment conducive to innovation.",
+              "Demonstrated a strong commitment to problem resolution, consistently seeking and implementing creative solutions to enhance software functionality.",
+              "Proved my dedication to the software field by passionately contributing to projects, leveraging a diverse skill set to drive success and overcome challenges.",
+            ],
+          },
+          {
+            subtitle1: "Freelance Full Stack Developer, Cali - Remote",
+            subtitle2: "September 2022 — August 2023",
+            list: [
+              "Developed a dynamic mobile restaurant website, integrating React, Redux, Sass, Node.js, Express, and MongoDB.",
+              "Implemented key features like an interactive menu, online table booking, virtual photo gallery, and real-time order handling for improved restaurant operations.",
+              "Applied top-notch coding practices to ensure an optimized experience on mobile devices.",
+              "Integrated ePayco's payment gateway for secure transactions.",
+              "Spearheaded the successful development of a sophisticated vehicle e-commerce platform.",
+              "Leveraged React, Redux, Sass, Node.js, Express, Prisma, MySQL, and JSON Web Tokens to enable seamless user registration, profile management, vehicle model customization, and efficient order processing.",
+              "Automated email notifications, enhancing the overall buying journey.",
             ],
           },
           {
             subtitle1: "Engineer at Integral S.A, Medellín - Remote",
-            subtitle2: "June 2020 — Present",
+            subtitle2: "June 2020 — August 2023",
             list: [
+              "Successfully designed and executed at least 10 major projects, working closely with highly experienced engineering professionals throughout Colombia's national territory.",
               "I demonstrated a strong work ethic, professionalism, and the ability to work under pressure.",
               "I utilized strong decision-making and problem-solving skills.",
-              "I was involved in significant projects for Colombia such as WWTP Canoas, HPS Guatapé, and OSMOC at Cerromatoso S.A.",
-              "My communication skills allowed me to establish reliable interpersonal relationships with my colleagues.",
+              "leaded complex engineering projects, collaborating with multidisciplinary teams, and overseeing professionals under my guidance.",
             ],
           },
         ],
@@ -166,18 +182,18 @@ export const content = [
         title: "ENLACES",
         islink: true,
         list: [
-          "E-commerce para PC",
           "Restaurante para celular",
+          "E-commerce para PC",
           "Doctor app (en construcción) adaptable",
           "Github",
           "Linked in",
         ],
         links: [
-          "https://golden-khapse-972f84.netlify.app",
           "https://sprightly-chebakia-19927e.netlify.app",
+          "https://golden-khapse-972f84.netlify.app",
           "https://doc-vicky.netlify.app/",
           "https://github.com/juandiegovelsol",
-          "https://www.linkedin.com/in/juan-diego-velasco-solano-713148122/",
+          "https://www.linkedin.com/in/juan-diego-velasco/",
         ],
       },
       {
@@ -209,7 +225,7 @@ export const content = [
             subtitle1: "",
             subtitle2: "",
             list: [
-              "Ingeniero mecatrónico con un año de experiencia en desarrollo web full-stack, con gran interés en tecnologías front-end y back-end para la creación de aplicaciones web interactivas y escalables.",
+              "Desarrollador Full Stack con más de 1 año de experiencia en tecnologías de desarrollo web, con gran interés en la creación de aplicaciones web interactivas y escalables.",
               "Apasionado por el desarrollo web, dedicado al aprendizaje continuo y a mantenerse al día con las últimas tecnologías..",
               "Distinguido por la motivación, el trabajo en equipo y la capacidad para resolver problemas complejos en proyectos colaborativos.",
               "Comprometido a aprovechar su experiencia y habilidades en desarrollo web para contribuir al éxito de la empresa y lograr resultados de alta calidad.",
@@ -221,21 +237,37 @@ export const content = [
         title: "HISTORIAL DE EMPLEO",
         info: [
           {
-            subtitle1: "Desarrollador Full Stack Freelance, Cali - Remoto",
-            subtitle2: "Septiembre 2022 — Actualidad",
+            subtitle1: "Full Stack Developer en RabbitStudio.co, Cali - Remoto",
+            subtitle2: "Agosto 2023 — Presente",
             list: [
-              "Como desarrollador full-stack, lideré con éxito el desarrollo de una plataforma de comercio electrónico de vehículos de alta gama. Utilicé tecnologías como React, Redux, Sass, Node.js, Express, Prisma, MySQL y JSON Web Tokens para implementar funcionalidades que incluyen el registro de usuarios, la gestión de perfiles, la selección de modelos y colores de vehículos y la gestión de pedidos. Además, integré la pasarela de pago de ePayco para facilitar las transacciones de compra y las notificaciones automáticas por correo electrónico para una comunicación fluida durante todo el proceso de compra.",
-              "Mi último proyecto fue el sitio web para celulares del restaurante El Rancho. Utilizando React, Redux, Sass, Node.js, Express y MongoDB para crear una aplicación web interactiva. Se implementaron características como un menú dinámico, reserva de mesa en línea, galería de fotos virtual y gestión de pedidos en tiempo real para el personal del restaurante. Además, se aplicaron las mejores prácticas de código de calidad para garantizar una experiencia atractiva y optimizada en todos los dispositivos móviles.",
+              "Lideré la investigación y desarrollo de una interfaz de usuario sofisticada utilizando ExtendScript para Adobe Illustrator, optimizando procesos de diseño y mejorando flujos de trabajo creativos.",
+              "Colaboré en el desarrollo de páginas web en Shopify, demostrando una habilidad versátil en desarrollo web y una pasión por la resolución de problemas.",
+              "Adopté un enfoque colaborativo, contribuyendo a los esfuerzos del equipo y fomentando un entorno de trabajo positivo propicio para la innovación.",
+              "Demostré un fuerte compromiso con la resolución de problemas, buscando e implementando consistentemente soluciones creativas para mejorar la funcionalidad del software.",
+              "Comprobé mi dedicación al campo del software contribuyendo apasionadamente a proyectos, aprovechando un conjunto diverso de habilidades para impulsar el éxito y superar desafíos.",
+            ],
+          },
+          {
+            subtitle1: "Desarrollador Full Stack Freelance, Cali - Remoto",
+            subtitle2: "Septiembre 2022 — Agosto 2023",
+            list: [
+              "Desarrollé un sitio web dinámico para un restaurante móvil, integrando React, Redux, Sass, Node.js, Express y MongoDB.",
+              "Implementé funciones clave como un menú interactivo, reservas de mesa en línea, galería de fotos virtual y gestión de pedidos en tiempo real para mejorar las operaciones del restaurante.",
+              "Apliqué prácticas de codificación de alta calidad para garantizar una experiencia optimizada en dispositivos móviles.",
+              "Integré la pasarela de pagos ePayco para transacciones seguras.",
+              "Encabecé el exitoso desarrollo de una plataforma de comercio electrónico de vehículos sofisticada.",
+              "Utilicé React, Redux, Sass, Node.js, Express, Prisma, MySQL y JSON Web Tokens para habilitar el registro de usuarios sin problemas, la gestión de perfiles, la personalización de modelos de vehículos y un procesamiento eficiente de pedidos.",
+              "Automatización de notificaciones por correo electrónico, mejorando la experiencia general de compra.",
             ],
           },
           {
             subtitle1: "Ingeniero en Integral S.A, Medellín - Remoto",
-            subtitle2: "Junio 2020 — Actualidad",
+            subtitle2: "Junio 2020 — Agosto 2023",
             list: [
-              "Demostré una fuerte ética de trabajo, profesionalismo y la capacidad de trabajar bajo presión.",
-              "Utilicé sólidas habilidades para la toma de decisiones y la resolución de problemas.",
-              "Participé en proyectos importantes para Colombia como PTAR Canoas, CH Guatapé, CH El Guavio y OSMOC en Cerromatoso S.A.",
-              "Mis habilidades de comunicación me permitieron establecer relaciones interpersonales confiables con mis colegas.",
+              "Diseñé y ejecuté exitosamente al menos 10 proyectos importantes en todo el territorio de Colombia, trabajando de cerca con profesionales de ingeniería altamente experimentados.",
+              "Demostré una sólida ética de trabajo, profesionalismo y la capacidad de trabajar bajo presión.",
+              "Utilicé habilidades sólidas de toma de decisiones y resolución de problemas.",
+              "Lideré proyectos de ingeniería complejos, colaborando con equipos multidisciplinarios y supervisando a profesionales bajo mi orientación.",
             ],
           },
         ],
@@ -318,30 +350,37 @@ export const resume = [
     paragraph1:
       "An ambitious Full Stack developer with a strong work ethic, a collaborative mindset, and genuine passion for software development.",
     paragraph2:
-      "Current expertise in various web development tools such as React, Redux, Sass, NodeJS, Git, MySQL, Prisma, MongoDB and Mongoose, gained through building several applications, including a personal Tesla webpage clone and a mobile restaurant website, both developed using SCRUM methodology. Learned how to work on both client-side and server-side of an application, taking a holistic approach to software development and building scalable and efficient applications using React and JavaScript.",
+      "Current expertise in various web development tools such as React, Redux, Sass, NodeJS, ExpressJs, Gitflow, Relational DB (MySQL, Prisma) and No Relational DB (MongoDB, Mongoose), gained through building several applications, including a mobile restaurant website, and a personal Tesla webpage clone, both developed using SCRUM methodology. Learned how to work on both client-side and server-side of an application, taking a holistic approach to software development and building scalable and efficient applications using JavaScript/TypeScript.",
     paragraph3:
-      "As a Mechatronics Engineer with 3 years of experience in automation and instrumentation systems design, have developed excellent researching skills and honed problem-solving skills to create complex engineering documents that allowed successful completion of the design process. These skills are essential for a full stack developer, providing a strong foundation for problem-solving and data analysis.",
+      "As a Developer Engineer with 3 years of experience in projects design, have developed excellent researching skills and honed problem-solving skills to create complex engineering solutions that allowed successful completion of the design process. These skills are essential for a full stack developer, providing a strong foundation for problem-solving and data analysis.",
     rigthdetails: [
       {
         title: "Work History",
         info: [
           {
-            dates: "2022-09 - Current",
+            dates: "2023-08 - Current",
             position: "Full Stack Developer",
-            company: "Freelance, Cali, Remote",
+            company: "RabbitStudio.co, Cali, Remote",
             items: [
-              "Detail-oriented software developer reviewing and debugging code to identify and correct issues. Increased problems solving and performed quality coding by applying expertise in programming languages and debugging tools.",
-              "Dedicated Scrum team member successfully contributing to development of collaborative projects. Actively participating in entire project lifecycle, including planning, development, testing, and deployment. Utilizing effective communication, collaboration, and problem-solving skills to ensure timely, budget-friendly, and satisfactory project delivery to all stakeholders.",
-              "Experienced database developer and manager leveraging expertise in NodeJS and ORM tools to develop and manage complex databases. Utilized SQL and MongoDB to optimize database performance and ensure data integrity, contributing to creation of efficient and reliable database systems supporting business operations and meeting user needs.",
+              "As a dedicated Scrum team member, I play a vital role in contributing to collaborative project development. I actively engage in the entire project lifecycle, from planning and development to testing and deployment. Leveraging effective communication, collaboration, and problem-solving skills, I ensure the timely, budget-friendly, and satisfactory delivery of projects to all stakeholders.",
             ],
           },
           {
-            dates: "2020-07 - Current",
-            position: "Engineer",
+            dates: "2022-09 - 2023-08",
+            position: "Full Stack Developer",
+            company: "Freelance, Cali, Remote",
+            items: [
+              "Detail-oriented software developer, dedicated to delivering comprehensive solutions by elaborating, reviewing, and debugging code to identify and correct issues. I enhance problem-solving skills and ensure high-quality code through meticulous expertise in programming languages and effective debugging tools.",
+              "As an experienced database developer and manager, I leverage proficiency in NodeJS and ORM tools to create and manage intricate databases. Utilizing MySQL and MongoDB as foundational technologies, I specialize in handling data with precision.",
+            ],
+          },
+          {
+            dates: "2020-07 - 2023-08",
+            position: "Development Engineer",
             company: "Integral S.A, Medellin, ANT",
             items: [
-              "Designed at least 10 big projects under direction of highly-experienced engineering professionals all across Colombia’s national territory.",
-              "Assisted in inspection of hundreds of customer and provider documents, resulting in 20% reduction in time and budget resources. This involved optimizing processes and identifying areas for improvement, leading to more efficient and effective inspections.",
+              "As an experienced designer and project developer, I specialized in leading complex engineering projects, collaborating with multidisciplinary teams, and overseeing professionals under my guidance. With a rich portfolio, I successfully designed and executed at least 10 major projects, working closely with highly experienced engineering professionals throughout Colombia's national territory.",
+              "My expertise extended to streamlining processes and optimizing workflows, resulting in a notable 20% reduction in time and budget resources. In this dynamic role, I thrived in environments with tight deadlines, ensuring the effective delivery of projects while maintaining a commitment to excellence.",
             ],
           },
         ],
@@ -413,32 +452,39 @@ export const resume = [
       },
     ],
     paragraph1:
-      "Desarrollador Full Stack ambicioso con sólida ética de trabajo, mentalidad colaborativa y pasión genuina por el desarrollo de software.",
+      "Desarrollador Full Stack ambicioso con sólidas habilidades de comunicación, mentalidad colaborativa y auténtica pasión por el desarrollo de software.",
     paragraph2:
-      "Experiencia actual en herramientas variadas de desarrollo web como React, Redux, Sass, NodeJS, Git, MySQL, Prisma, MongoDB y Mongoose, obtenida mediante la creación de aplicaciones, incluido un clon de la página web de Tesla y un sitio web para móviles del restaurante El Rancho, ambos desarrollados con la metodología SCRUM. Aprendió a trabajar tanto en el lado del cliente como en el lado del servidor de una aplicación, adoptando un enfoque holístico para el desarrollo de software y creando aplicaciones escalables y eficientes utilizando React y JavaScript.",
+      "Experiencia actual en diversas herramientas de desarrollo web como React, Redux, Sass, NodeJS, ExpressJs, Gitflow, bases de datos relacionales (MySQL, Prisma) y bases de datos no relacionales (MongoDB, Mongoose), adquirida a través de la construcción de varias aplicaciones, incluyendo un sitio web de restaurante móvil y un clon de la página web de Tesla, ambos desarrollados utilizando la metodología SCRUM. Aprendí a trabajar tanto en el lado del cliente como del servidor de una aplicación, adoptando un enfoque adecuado para el desarrollo de software y construyendo aplicaciones escalables y eficientes utilizando JavaScript/TypeScript.",
     paragraph3:
-      "Como ingeniero mecatrónico con 3 años de experiencia en el diseño de sistemas de automatización e instrumentación, ha desarrollado excelentes habilidades de investigación y perfeccionado habilidades de resolución de problemas para crear documentos de ingeniería complejos que permitieron completar con éxito el proceso de diseño. Estas habilidades son esenciales para un desarrollador Full stack, ya que proporcionan una base sólida para la resolución de problemas y el análisis de datos.",
+      "Como ingeniero desarrollador con 3 años de experiencia en el diseño de proyectos, he desarrollado excelentes habilidades de investigación y perfeccionado habilidades de resolver problemas, para crear soluciones de ingeniería complejas que permitieron la finalización exitosa de procesos de diseño. Estas habilidades son esenciales para un desarrollador Full Stack, proporcionando una base sólida para la resolución de problemas y el análisis de datos.",
     rigthdetails: [
       {
         title: "Historial de Trabajo",
         info: [
           {
-            dates: "2022-09 - Actual",
-            position: "Desarrollador Full Stack",
-            company: "Freelance, Cali, Remoto",
+            dates: "2023-08 - Presente",
+            position: "Full Stack Developer",
+            company: "RabbitStudio.co, Cali, Remoto",
             items: [
-              "Desarrollador de software orientado a los detalles que revisa y depura código para identificar y corregir problemas. Aumentó la resolución de problemas y realizó codificación de calidad aplicando experiencia en lenguajes de programación y herramientas de depuración.",
-              "Miembro dedicado del equipo SCRUM que contribuyó con éxito al desarrollo de proyectos colaborativos. Participó activamente en todo el ciclo de vida del proyecto, incluida la planificación, el desarrollo, las pruebas y la implementación. Utilizó habilidades efectivas de comunicación, colaboración y resolución de problemas para garantizar la entrega oportuna, económica y satisfactoria del proyecto a todas las partes interesadas.",
-              "Desarrollador y administrador de bases de datos experimentado que aprovecha herramientas NodeJS y ORMs para desarrollar y administrar bases de datos complejas. Utilizó SQL y MongoDB para optimizar el rendimiento de las bases de datos y garantizar la integridad de los registros, lo que contribuyó a la creación de sistemas eficientes y confiables que respaldan las operaciones comerciales y satisfacen las necesidades de los usuarios.",
+              "Como miembro dedicado del equipo Scrum, desempeño un papel vital al contribuir al desarrollo colaborativo de proyectos. Participo activamente en todo el ciclo de vida del proyecto, desde la planificación y el desarrollo hasta las pruebas y la implementación. Aprovechando las habilidades efectivas de comunicación, colaboración y resolución de problemas, garantizo la entrega oportuna, económica y satisfactoria de los proyectos a todas las partes interesadas.",
             ],
           },
           {
-            dates: "2020-07 - Actual",
-            position: "Ingeniero",
+            dates: "2022-09 - 2023-08",
+            position: "Full Stack Developer",
+            company: "Freelance, Cali, Remoto",
+            items: [
+              "Desarrollador de software atento con los detalles mas mínimos, dedicado a brindar soluciones integrales mediante la elaboración, revisión y depuración de código para identificar y corregir problemas. Mejoro las habilidades de resolución de problemas y garantizo un código de alta calidad a través de mi experiencia en lenguajes de programación y herramientas de depuración efectivas.",
+              "Como desarrollador y administrador de bases de datos experimentado, aprovecho el dominio de las herramientas NodeJS y ORM para crear y administrar bases de datos complejas. Utilizando MySQL y MongoDB como tecnologías fundamentales, me especializo en el manejo de datos con precisión.",
+            ],
+          },
+          {
+            dates: "2020-07 - 2023-08",
+            position: "Ingeniero de desarrollo",
             company: "Integral S.A, Medellin, ANT",
             items: [
-              "Diseñó al menos 10 grandes proyectos bajo la dirección de profesionales de ingeniería de alta experiencia en todo el territorio nacional de Colombia, participando de forma activa en equipos multidisciplinarios de más de 50 personas.",
-              "Asistió en la inspección de cientos de documentos de clientes y proveedores, lo que resultó en una reducción del 20 % en tiempo y recursos presupuestados. Esto implicó optimizar procesos e identificar áreas de mejora, lo que llevó a inspecciones más eficientes y efectivas.",
+              "Como diseñador y desarrollador de proyectos experimentado, me especialicé en liderar proyectos complejos de ingeniería, colaborar con equipos multidisciplinarios y supervisar profesionales bajo mi dirección. Con un rico portafolio, diseñé y ejecuté exitosamente al menos 10 proyectos importantes, trabajando en estrecha colaboración con profesionales de ingeniería altamente experimentados en todo el territorio de Colombia.",
+              "Mi experiencia se extendió a la agilización de procesos y optimización de flujos de trabajo, lo que resultó en una notable reducción del 20% en tiempo y recursos presupuestarios. En este rol dinámico, prosperé en entornos con plazos ajustados, asegurando la entrega efectiva de proyectos y manteniendo un compromiso con la excelencia.",
             ],
           },
         ],
@@ -489,7 +535,7 @@ export const contact = [
           description:
             "Welcome to my Linked-in profile! Passionate Full Stack Developer | Crafting Innovative Web Solutions | Tech Enthusiast | Continuous Learner.",
           link: "Check out my profile here!",
-          href: "https://www.linkedin.com/in/juan-diego-velasco-solano-713148122/",
+          href: "https://www.linkedin.com/in/juan-diego-velasco/",
         },
       ],
     },
@@ -533,7 +579,7 @@ export const contact = [
           description:
             "¡Bienvenido a mi perfil de Linked-in! Desarrollador Full Stack apasionado | Creación de soluciones web innovadoras | Entusiasta de la tecnología | Aprendizaje Continuo.",
           link: "Mira aquí mi perfil!",
-          href: "https://www.linkedin.com/in/juan-diego-velasco-solano-713148122/",
+          href: "https://www.linkedin.com/in/juan-diego-velasco/",
         },
       ],
     },
